@@ -11,10 +11,11 @@ HowToSunspire.AbilitiesToTrack = {
 
     [117075] = HowToSunspire.ShieldCharge, --shield charge from 1H & Shield
     [116836] = HowToSunspire.Leap, --2H adds leap -- [116915] = HowToSunspire.Leap,[116916] = HowToSunspire.Leap, [116918] = HowToSunspire.Leap,
+    --[[ TODO : Add tear and breathes
     [117526] = HowToSunspire.Tear, -- Soul tear
     [119283] = HowToSunspire.Frost, -- Frost Breath
     [121723] = HowToSunspire.Fire, -- Fire Breath
-    [121980] = HowToSunspire.Searing, -- Searing Breath
+    [121980] = HowToSunspire.Searing, -- Searing Breath]]
 
     [120890] = HowToSunspire.Block, --jump from the red cats
     [122012] = HowToSunspire.Block, --jump from white cats

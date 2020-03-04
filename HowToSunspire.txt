@@ -1,8 +1,7 @@
-
 ## Title: HowTo|c989898Sunspire|r
 ## APIVersion: 100030
 ## Author: Floliroy
-## Version: 1.3.1
+## Version: 1.4.0
 ## DependsOn: LibAddonMenu-2.0
 ## OptionalDependsOn: LibMapPing LibGPS
 ## SavedVariables: HowToSunspireVariables

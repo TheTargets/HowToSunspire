@@ -457,6 +457,44 @@ function HowToSunspire.CreateSettingsWindow()
 				sV.Enable.NextMeteor = newValue
 			end,
 		},
+		{	type = "submenu",
+			name = "Advanced Meteor Mode",
+			controls = {
+				{	type = "checkbox",
+					name = "Enable Advanced Meteor",
+					tooltip = "Compared to the Comet / Meteor thing, it will tell you where to go with some arrows (right / left / back).",
+					default = true,
+					getFunc = function() return sV.Enable.AdvancedMeteor end,
+					setFunc = function(newValue)
+						sV.Enable.AdvancedMeteor = newValue
+					end,
+				},
+				{	type = "editbox",
+					name = "Statues Tank @Name",
+					tooltip = "Enter the @ of the player who is going to tank the statues on last boss if there is one.",
+					getFunc = function() return sV.nameStatuesTank end,
+					setFunc = function(newValue) 
+						sV.nameStatuesTank = newValue
+						end,
+				},
+				{	type = "editbox",
+					name = "Main Tank @Name",
+					tooltip = "Enter the @ of the player who is going to main tank.",
+					getFunc = function() return sV.nameMainTank end,
+					setFunc = function(newValue) 
+						sV.nameMainTank = newValue
+						end,
+				},
+				{	type = "editbox",
+					name = "Kite Healer @Name",
+					tooltip = "Enter the @ of the player who is kiting and probably guarding the main tank.",
+					getFunc = function() return sV.nameKiteHeal end,
+					setFunc = function(newValue) 
+						sV.nameKiteHeal = newValue
+						end,
+				},
+			}
+		},
 		{	type = "description",
 			text = " ",
 		},
